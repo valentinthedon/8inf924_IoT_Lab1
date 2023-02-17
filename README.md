@@ -36,3 +36,7 @@ Les différents capteurs sélectionnés l'ont été pour un bonne raison. Le cap
 ### Vidéo de démonstration
 
 Accessible via ce [lien](https://youtu.be/PYr5y6yWB10)
+
+## Références
+- [MQ9 Gas Sensor](https://fr.wikipedia.org/wiki/Capteur_de_gaz_MQ-9)
+- [Partie par million (ppm)](https://fr.wikipedia.org/wiki/Partie_par_million)
