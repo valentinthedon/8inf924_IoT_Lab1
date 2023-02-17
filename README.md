@@ -9,7 +9,7 @@ Dans ce README, nous répondrons à l'ensemble des questions du TP et expliciter
 ### Hardware
 - [Arduino MKR Wifi 1010](https://docs.arduino.cc/hardware/mkr-wifi-1010)
 - [Module moteur/ventilateur](https://wiki.dfrobot.com/Gravity__130_DC_Motor_SKU__DFR0411)
-- [Capteur de gaz](https://wiki.dfrobot.com/Analog_Gas_Sensor_MQ9__SKU_SEN0134) : permet de detecter différents gaz tel que le Monoxyde de Carbone, le méthane, le propane, etc. Ce capteur fonctionne grâce à la sensibilité du [dioxyde d'étain](https://fr.wikipedia.org/wiki/Dioxyde_d%27%C3%A9tain). En utilisant la lecture analogique, il nous est possible de récupérer la valeur du capteur, ici ce sont des ppm, qui mesure la pollution dans l'air. Pour les gaz combustibles (type méthane, propane, etc.), il peut capter jusquá 10 000 ppm.
+- [Capteur de gaz](https://wiki.dfrobot.com/Analog_Gas_Sensor_MQ9__SKU_SEN0134) : permet de detecter différents gaz tel que le Monoxyde de Carbone, le méthane, le propane, etc. Ce capteur fonctionne grâce à la sensibilité du [dioxyde d'étain](https://fr.wikipedia.org/wiki/Dioxyde_d%27%C3%A9tain) à la présence de ces gazs dans l'air. En utilisant la lecture analogique, il nous est possible de récupérer la valeur du capteur, ici ce sont des ppm, qui mesure la pollution dans l'air. Pour les gaz combustibles (type méthane, propane, etc.) il peut capter jusqu'à 10 000 ppm.
 - [Bouton poussoir](https://wiki.dfrobot.com/DFRobot_Digital_Push_Button_SKU_DFR0029) : fonctionne très simplement, comme le plus viez interrupteur du monde, conecte 2 plaques de cuivre qui laisse passe on non le courant.
 ### Software
 Pour le dévellopement des logiciels embarqués dans le microcontrôleur, nous avons utilisé [Arduino IDE](https://wiki-content.arduino.cc/en/software)
