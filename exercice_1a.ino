@@ -1,14 +1,13 @@
-#define INTERVAL 2000
+#define INTERVAL 2000               // intervalle de temps de switch on/off
+
 void setup() {
-  // Connexion au PIN de la LED integré au micro controleur
-  pinMode(LED_BUILTIN, OUTPUT);
+    // LED_BUILTIN : alias du pin de la led intégré
+    pinMode(LED_BUILTIN, OUTPUT);   // Connexion au pin en mode sortie
 }
- 
-// La fonction delay attends une durée en bloquant le processus dans son entiereté (processus vital y compris),
-// tempo utilise millis() qui recupere le temps depuis le démarrage du programme
+
 void loop() {
-  digitalWrite(LED_BUILTIN,HIGH);
-  delay(INTERVAL);
-  digitalWrite(LED_BUILTIN, LOW);
-  delay(INTERVAL);
+    digitalWrite(LED_BUILTIN,HIGH); // Allumage de la LED
+    delay(INTERVAL);                // On attends
+    digitalWrite(LED_BUILTIN, LOW); // On éteint la LED
+    delay(INTERVAL);                // On attends a nouveau avant de recommencer
 }
